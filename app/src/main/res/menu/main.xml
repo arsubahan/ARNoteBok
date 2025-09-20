@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/outline_menu_white"
+        android:title=""
+        app:showAsAction="always">
+        <menu>+-
+            <item
+                android:id="@+id/Restore"
+                android:icon="@drawable/menu_restore"
+                android:orderInCategory="100"
+                android:title="@string/restr" />
+            <item
+                android:id="@+id/Backup"
+                android:icon="@drawable/menu_backup"
+                android:orderInCategory="101"
+                android:title="@string/bkup" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/menu_line"
+        android:title=""
+        app:showAsAction="always">
+        <menu>+-
+            <item
+                android:id="@+id/Add"
+                android:icon="@drawable/menu_add"
+                android:menuCategory="container"
+                android:orderInCategory="100"
+                android:title="@string/Add_New" />
+
+            <item
+                android:id="@+id/Delete"
+                android:icon="@drawable/menu_add"
+                android:menuCategory="container"
+                android:orderInCategory="100"
+                android:title="@string/delete" />
+
+            <item
+                android:id="@+id/Exit"
+                android:icon="@drawable/menu_logout"
+                android:menuCategory="container"
+                android:orderInCategory="100"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+</menu>
